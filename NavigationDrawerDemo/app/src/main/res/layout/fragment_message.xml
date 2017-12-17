@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mravi.navigationdrawerdemo.MessageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WHEN ARE MOSQUITOES MOST ACTIVE AND WHERE?"
+                    android:textColor="#601d1d"
+                    android:textSize="29dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Mosquitoes are much more than a nuisance. In addition to their annoying swarming and painful bites, mosquitoes can carry dangerous diseases, including West Nile virus, yellow fever and other life-threatening illnesses. Therefore taking steps to avoid mosquitoes can be vital to properly enjoy the outdoors. A common piece of advice is to avoid going outside when mosquitoes are most active. But how can you know when mosquitoes are more likely to bite you? During warm months, you may encounter these biting insects everywhere you go. To avoid mosquitoes, you need to understand when different types of mosquitoes are most active for your geographical region, when “mosquito seasons” occur and the times of day mosquitoes are most active.
+click maps button to view
+"
+
+                    android:textSize="26dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mosquito Habitats"
+                    android:textColor="#601d1d"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mosquitoes prefer stagnant water within which to lay their eggs. They most commonly infest ponds, marshes, swamps and other wetland habitats. However, they are capable of thriving in a variety of locations and can successfully grow in numbers even when not in their natural habitat. Many species of mosquitoes use containers of water as egg-deposit sites.
+Hot, humid environments are most amenable to mosquito growth and survival. Infestations can occur easily in tropical areas. Some species have also been known to inhabit freezing locations such as the Arctic Circle.
+Mosquito larvae can be found in various habitats. Some larvae are active in transient waters such as floodwater, ditches and woodland pools. The Anopheles, Culex, Culiseta, Coquillettidia and Uranotaenia species breed in permanent bodies of water and can survive in polluted water as well as freshwater, acid water and brackish water swamps. Other mosquito larvae may be present in container water sources such as puddles upon leaves and stagnant water within small pools.
+\n
+To Know More About Places Click Maps Button Below.
+"
+                    android:textColor="#433622"
+                    android:textSize="26dp"
+
+
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom"
+                    android:onClick="maps"
+                    android:text="Maps"
+
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
+
+

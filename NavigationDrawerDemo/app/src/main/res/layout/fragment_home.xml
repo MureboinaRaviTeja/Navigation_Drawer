@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mravi.navigationdrawerdemo.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Welcome"
+
+         android:gravity="center"
+
+         android:textSize="35dp"
+
+         android:textStyle="bold"
+     android:id="@+id/welcome"
+         />
+
+ -->
+
+
+    <!--
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="381dp"
+            android:layout_height="572dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="fill_vertical"
+            android:text="helo"
+
+            android:textSize="30dp" />
+
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/welcome"
+                    android:text="What is Dengue ?\n  "
+                    android:textColor="#601d1d"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_marginTop="-29dp"
+                    android:gravity="left"
+                    android:scrollbars="vertical"
+                    android:text=" Dengue is fast emerging pandemic-prone viral disease in many parts of the world. Dengue flourishes in urban poor areas, suburbs and the countryside but also affects more affluent neighbourhoods in tropical and subtropical countries.
+Dengue is a mosquito-borne viral infection causing a severe flu-like illness and, sometimes causing a potentially lethal complication called severe dengue. The incidence of dengue has increased 30-fold over the last 50 years. Up to 50-100 million infections are now estimated to occur annually in over 100 endemic countries, putting almost half of the world’s population at risk.
+Severe dengue (previously known as dengue haemorrhagic fever) was first recognized in the 1950s during dengue epidemics in the Philippines and Thailand. Today it affects Asian and Latin American countries and has become a leading cause of hospitalization and death among children and adults in these regions.
+The full life cycle of dengue fever virus involves the role of mosquito as a transmitter (or vector) and humans as the main victim and source of infection.
+
+
+"
+                    android:textColor="#433622"
+                    android:textSize="26dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:scrollbars="vertical"
+                    android:text="The Virus"
+                    android:textColor="#433622"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:scrollbars="vertical"
+                    android:text="The dengue virus (DEN) comprises four distinct serotypes (DEN-1, DEN-2, DEN-3 and DEN-4) which belong to the genus Flavivirus, family Flaviviridae.
+Distinct genotypes have been identified within each serotype, highlighting the extensive genetic variability of the dengue serotypes. Among them, “Asian” genotypes of DEN-2 and DEN-3 are frequently associated with severe disease accompanying secondary dengue infections.
+
+"
+                    android:textSize="26dp"
+
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dengu1"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:scrollbars="vertical"
+                    android:text="The mosquito"
+                    android:textColor="#433622"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:scrollbars="vertical"
+                    android:text="The Aedes aegypti mosquito is the main vector that transmits the viruses that cause dengue. The viruses are passed on to humans through the bites of an infective female Aedes mosquito, which mainly acquires the virus while feeding on the blood of an infected person."
+                    android:textSize="26dp"
+
+
+                    />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
+

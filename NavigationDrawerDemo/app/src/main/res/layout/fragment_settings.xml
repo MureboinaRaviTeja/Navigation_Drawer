@@ -1,0 +1,133 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mravi.navigationdrawerdemo.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dengue fever facts"
+                    android:textColor="#433622"
+                    android:textSize="32dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n->Dengue fever is a disease caused by a family of viruses that are transmitted by mosquitoes.\n
+\n->Symptoms of dengue fever include severe joint and muscle pain, swollen lymph nodes, headache, fever, exhaustion, and rash. The presence of fever, rash, and headache (the 'dengue triad') is characteristic of dengue fever.
+\n\n
+->Dengue is prevalent throughout the tropics and subtropics.
+\n\n
+->Dengue fever is caused by a virus, and there is no specific medicine or antibiotic to treat it. For typical dengue fever, the treatment is directed toward relief of the symptoms (symptomatic treatment).
+\n\n
+->Papaya leaf extract can be used to treat dengue fever.
+\n\n
+
+->The acute phase of the illness with fever and muscle pain lasts about one to two weeks.
+\n\n
+->Dengue hemorrhagic fever (DHF) is a specific syndrome that tends to affect children under 10 years of age. This complication of dengue causes abdominal pain, hemorrhage (bleeding), and circulatory collapse (shock).
+
+"
+                    android:textColor="#433622"
+                    android:textSize="26dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/dengu2"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dengue Symptoms and Signs"
+                    android:textColor="#601d1d"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abdominal Pain
+\n
+Bleeding Gums\n
+
+Bone Pain
+\n
+Chills
+\n
+Difficulty Breathing
+\nEasy Bruising
+\nFatigue
+\nFever
+\n
+Headache
+\n
+Joint Pain
+\nLoss of Appetite
+\nLow Back Pain
+\nMuscle Pain
+\nNausea
+\n
+Nosebleeds
+\n
+Pain Behind the Eyes
+\nRash (Red Spots on the Skin)
+\nSkin Hemorrhages
+\nSwollen Lymph Nodes
+\nVomiting
+
+"
+                    android:textColor="#433622"
+                    android:textSize="26dp"
+
+
+                    />
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/dengu3"
+
+
+                    />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
+
